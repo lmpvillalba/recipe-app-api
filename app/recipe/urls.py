@@ -15,6 +15,7 @@ router = DefaultRouter()
 
 router.register('recipes', views.RecipeViewSet) # register views endpoint to name recipes
 router.register('tags', views.TagViewSet)
+router.register('ingredients', views.IngredientViewSet)
 
 app_name = 'recipe'
 
